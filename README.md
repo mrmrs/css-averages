@@ -16,9 +16,13 @@ Total & Unique
 7. text-align
 
 ## Setup
+Needs work...
 ```
 npm install . && npm start
 ```
+
+getcss.js sets up all the fixtures
+index.js does some stuff to generate averages
 
 ## License
 
