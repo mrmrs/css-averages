@@ -6,6 +6,7 @@ var _ = require('lodash')
 var filesize = require('filesize')
 var cssstats = require('cssstats')
 var getcss = require('get-css')
+var removeProtocol = require('remove-protocol')
 var urls = require('./urls.json')
 
 var options = {
@@ -14,7 +15,7 @@ var options = {
 
 urls.forEach(function (url) {
   getcss(url, options).then(function (response) {
-    var domain = url.replace(/.*?:\/\//g, '')
+    var domain = removeProtocol(url)
     fs.writeFileSync('./data/' + domain + '.css', response.css)
   })
   .catch(function (error) {

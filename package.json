@@ -33,5 +33,8 @@
   "scripts": {
     "start": "node index.js",
     "build:watch": "watch 'npm start' ."
+  },
+  "dependencies": {
+    "remove-protocol": "^1.0.0"
   }
 }
