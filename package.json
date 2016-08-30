@@ -22,7 +22,7 @@
     "get-css": "^1.1.1",
     "lodash": "^3.10.0",
     "postcss": "^4.1.16",
-    "tachyons-cli": "^0.3.2",
+    "tachyons-cli": "^1.0.2",
     "watch": "^0.16.0"
   },
   "contributors": [
