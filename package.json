@@ -1,6 +1,6 @@
 {
   "name": "cssstats-averages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Averages for some css stats on top websites",
   "main": "index.html",
   "repository": {
