@@ -17,13 +17,13 @@
   "author": "mrmrs",
   "license": "MIT",
   "devDependencies": {
-    "cssstats": "^2.0.1",
-    "filesize": "^3.1.3",
-    "get-css": "^1.1.1",
-    "lodash": "^3.10.0",
-    "postcss": "^4.1.16",
-    "tachyons-cli": "^1.0.4",
-    "watch": "^0.16.0"
+    "cssstats": "^3.0.0-beta.2",
+    "filesize": "^3.3.0",
+    "get-css": "^1.2.1",
+    "lodash": "^4.16.6",
+    "postcss": "^5.2.5",
+    "tachyons-cli": "^1.0.8",
+    "watch": "^1.0.1"
   },
   "contributors": [
     {
@@ -36,6 +36,6 @@
     "build:watch": "watch 'npm start' ."
   },
   "dependencies": {
-    "remove-protocol": "^1.0.0"
+    "remove-protocol": "^1.0.1"
   }
 }
